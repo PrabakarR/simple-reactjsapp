@@ -1,10 +1,6 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Mulish";
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +31,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/*app css custom*/
+.headerWrap{
+  height: 75px;
+  display: flex;
+  align-items: center;
+}
+.innerheaderWrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftLogo{
+  width: 100px;
+}
+.mainWrap{
+  margin-top: 75px;
+}
+.solutionBox{
+  padding: 20px;
+  background: #fff;
+}
+.headbox{
+  margin-bottom: 20px;
+  display: inline-block;
+  border-bottom: 3px solid #0ea2bd;
+  padding: 5px 10px;
+}
+.paraBox{
+  margin-bottom: 10px;
+}
+tbody, td, tfoot, th, thead, tr{
+  padding: 15px 14px !important;
+}
+table td {
+  width: 50%;
 }
