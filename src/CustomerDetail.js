@@ -40,45 +40,45 @@ export class CustomerDetail extends Component {
                             <table className="table table-bordered">
                                 <thead>
                                     <tr>
-                                        <th scope="col">Details Data</th>
-                                        <th scope="col" ></th>
+                                        <th>Details Data</th>
+                                        <th ></th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td scope="row">Name</td>
+                                        <td>Name</td>
                                         <td>{this.state.customerDetails.data.name}</td>
                                     </tr>
                                     <tr>
-                                        <td scope="row">Email </td>
+                                        <td>Email </td>
                                         <td>{this.state.customerDetails.data.email}</td>
                                     </tr>
                                     <tr>
-                                        <td scope="row">Phone </td>
+                                        <td>Phone </td>
                                         <td>{this.state.customerDetails.data.phone}</td>
                                     </tr>
                                     <tr>
-                                        <td scope="row">City </td>
+                                        <td>City </td>
                                         <td>{this.state.customerDetails.data.city}</td>
                                     </tr>
                                     <tr>
-                                        <td scope="row">State </td>
+                                        <td>State </td>
                                         <td>{this.state.customerDetails.data.state}</td>
                                     </tr>
                                     <tr>
-                                        <td scope="row">Country </td>
+                                        <td>Country </td>
                                         <td>{this.state.customerDetails.data.country}</td>
                                     </tr>
                                     <tr>
-                                        <td scope="row">Organization </td>
+                                        <td>Organization </td>
                                         <td>{this.state.customerDetails.data.organization}</td>
                                     </tr>
                                     <tr>
-                                        <td scope="row">Job Profile</td>
+                                        <td>Job Profile</td>
                                         <td>{this.state.customerDetails.data.jobProfile}</td>
                                     </tr>
                                     <tr>
-                                        <td scope="row">Additional Info</td>
+                                        <td>Additional Info</td>
                                         <td>{this.state.customerDetails.data.additionalInfo}</td>
                                     </tr>
 
